@@ -1,31 +1,57 @@
-<!DOCTYPE html>
 <html>
+
+
 <head>
-	<title>Bob</title>
-	<script type="text/javascript" src = "prg.js"></script>
+
+<title> Test </title>
+<link rel="stylesheet" type="text/css" href="main.css" />
+<script src="jquery-1.10.2.js"></script>
+
+<script type='text/javascript' src='script.js'></script>
+
+
 </head>
+
 <body>
-<h1> Her tester Nikolaj</h1>
 
-Her sker der faktisk ikke noget
+<h1> PFA Pension<h1>
 
-<p>
 
-Her kommer der nok noget med planter!
 
-</p>
 
-<p>
+ <h2>Planter der skal vandes:</h2>
+<table id="planterVandes">
+<tr>
+	<tr>
+		<th>Plante</th>
+		<th>Lokation</th>
+		<th>Fugtighed</th>
+	</tr>
+	
+</table>
 
-Måske kommer der noget med mad
+<h2>Admin</h2>
 
-</p>
+<form>
+Plante: <input type="text" name="FirstName" id="plante" value="Rose"><br>
+Lokation: <input type="text" name="LastName" id="lokation" value = "Haven"><br>
+</form>
+<button type="submit" value="Submit" class='projects-button' onclick = "submit()"></button>
 
-<p>
+<h2>Alle planter - Admin</h2>
 
-third paragraph
+<table id="allePlanter">
+<tr>
+	<tr>
+		<th>Plante</th>
+		<th>Lokation</th>
+		<th>Fugtighed</th>
+		<th>GUID</th>
+	</tr>
+	
+</table>
 
-</p>
+
 </body>
-</html>
 
+</html>
